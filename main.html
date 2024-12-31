@@ -1,8 +1,98 @@
-<html>
-  <head>
-    <title>Facebook Login</title>
-  </head>
-  <body>
-    <!-- Write your code here -->
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 100vh;
+
+}
+
+.left{
+    display: inline-block;
+    width: 450px;
+    margin-top: 70px;
+}
+
+form{
+    display: flex;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+   box-shadow: 0 0 10px #ccc;
+   flex-direction: column;
+   gap: 10px;
+   
+}
+
+form.input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+.button{
+    background-color: #1877f2;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #1877f2;
+}
+
+
+.signup{
+    background-color:#42b72a;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <section class="left">
+<img src="Facebook-Logo-2019.png " width="300px" alt="facebook logo" >
+<p>Facebook helps to connect or share with the people in your life</p>
+
+    </section>
+
+
+
+
+<section class="right">
+
+<form class="form1">
+<input type="email" name="email" id="email" placeholder="Email address or phone number" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+<br><br>
+
+<input type="password" name="psswrd" id="psswrd" placeholder="password" style="border-radius: 5px; padding: 10px; border: 1px solid #ccc ;">
+<br><br>
+
+<button class="button">Login</button>
+<a href="#">Forgotten account ?</a>
+
+<button class="signup" >
+    create new account
+</button>
+
+
+</form>
+
+
+</section>
+
+
+
+    </div>
+</body>
 </html>
